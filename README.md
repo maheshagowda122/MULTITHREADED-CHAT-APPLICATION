@@ -19,24 +19,35 @@ The application is built using standard Java tools such as JDK for compilation a
 *OUTPUT1*:
 
 Chat server started on port 1234
+
 New client connected: Socket[addr=/127.0.0.1,port=56012,localport=1234]
+
 New client connected: Socket[addr=/127.0.0.1,port=56013,localport=1234]
+
 Client disconnected: Socket[addr=/127.0.0.1,port=56013,localport=1234]
 
 *OUTPUT2*:
 
 Connected to chat server!
+
 Hello, I am Client 1
+
 Received: Hello from Client 2!
+
 How are you?
+
 Received: I'm fine! This chat is working well. 😊
 
 *OUTPUT3*:
 
 Connected to chat server!
+
 Received: Hello, I am Client 1
+
 Hello from Client 2!
+
 Received: How are you?
+
 I'm fine! This chat is working well. 😊
 
 
